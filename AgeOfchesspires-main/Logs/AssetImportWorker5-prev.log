@@ -1,0 +1,1381 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.28f1 (232e59c3f087) revision 2305625'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32562 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/FreeLance/NewChess/AmericanCatur
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+63087
+Successfully changed project path to: D:/FreeLance/NewChess/AmericanCatur
+D:/FreeLance/NewChess/AmericanCatur
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [87512] Host "[IP] 192.168.208.1 [Port] 0 [Flags] 2 [Guid] 826612903 [EditorId] 826612903 [Version] 1048832 [Id] WindowsEditor(7,Muaaz-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [87512] Host "[IP] 192.168.208.1 [Port] 0 [Flags] 2 [Guid] 826612903 [EditorId] 826612903 [Version] 1048832 [Id] WindowsEditor(7,Muaaz-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 278.76 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.28f1 (232e59c3f087)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/FreeLance/NewChess/AmericanCatur/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e9b)
+    Vendor:   Intel
+    VRAM:     16281 MB
+    Driver:   31.0.101.2127
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007186 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 239.58 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.286 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1286ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (940ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (564ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (240ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.027581 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 200.28 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+Assets queued for import after Refresh completed:
+	Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+Asset Pipeline Refresh: Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+<color=#73ACE5>[Fusion/Config]</color> Config created/dirty during import, this is not supported
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Fusion.Editor.FusionEditorLog:WarnConfig (string) (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:9866)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10331)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs Line: 9866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 14.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (14054ms)
+		BeginReloadAssembly (219ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (13649ms)
+			LoadAssemblies (11764ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (548ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (148ms)
+			SetupLoadedEditorAssemblies (1132ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (200ms)
+				BeforeProcessingInitializeOnLoad (231ms)
+				ProcessInitializeOnLoadAttributes (579ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.87 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 120 unused Assets / (0.7 MB). Loaded Objects now: 6560.
+Memory consumption went from 241.8 MB to 241.0 MB.
+Total: 4.832300 ms (FindLiveObjects: 0.531600 ms CreateObjectMapping: 0.541000 ms MarkObjects: 3.329000 ms  DeleteObjects: 0.429500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 841ae3c624cefb6ec2fa1ff7f4c36f56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027613 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+Assets queued for import after Refresh completed:
+	Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+Asset Pipeline Refresh: Total: 0.003 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+<color=#73ACE5>[Fusion/Config]</color> Config created/dirty during import, this is not supported
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Fusion.Editor.FusionEditorLog:WarnConfig (string) (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:9866)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10331)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs Line: 9866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.293 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2294ms)
+		BeginReloadAssembly (265ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (1837ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (643ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (797ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (480ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 16.05 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5982 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (0.7 MB). Loaded Objects now: 6566.
+Memory consumption went from 230.3 MB to 229.6 MB.
+Total: 5.494800 ms (FindLiveObjects: 0.538700 ms CreateObjectMapping: 0.473400 ms MarkObjects: 4.098100 ms  DeleteObjects: 0.383000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 841ae3c624cefb6ec2fa1ff7f4c36f56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 973685.445382 seconds.
+  path: Assets/Prefabs/UIManager.prefab
+  artifactKey: Guid(50b992ce479a4d14aa5aacc562887a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UIManager.prefab using Guid(50b992ce479a4d14aa5aacc562887a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fa91563548e16a901b6df1d0e9e8e4') in 0.053604 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027852 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+Assets queued for import after Refresh completed:
+	Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+Asset Pipeline Refresh: Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+<color=#73ACE5>[Fusion/Config]</color> Config created/dirty during import, this is not supported
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Fusion.Editor.FusionEditorLog:WarnConfig (string) (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:9866)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10331)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs Line: 9866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.069 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2070ms)
+		BeginReloadAssembly (260ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1646ms)
+			LoadAssemblies (198ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (488ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (790ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (505ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 15.44 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5978 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (0.7 MB). Loaded Objects now: 6570.
+Memory consumption went from 230.2 MB to 229.5 MB.
+Total: 5.241400 ms (FindLiveObjects: 0.498900 ms CreateObjectMapping: 0.443100 ms MarkObjects: 3.902900 ms  DeleteObjects: 0.395300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 841ae3c624cefb6ec2fa1ff7f4c36f56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 807.974451 seconds.
+  path: Assets/Prefabs/PromotionPanels/PromotionalPanel8th.prefab
+  artifactKey: Guid(a9b472a42f3d9ea4885cef495816ce11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PromotionPanels/PromotionalPanel8th.prefab using Guid(a9b472a42f3d9ea4885cef495816ce11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17239f9e12b09697ef1a0cfbe799de00') in 0.120861 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022571 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+Assets queued for import after Refresh completed:
+	Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+Asset Pipeline Refresh: Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+<color=#73ACE5>[Fusion/Config]</color> Config created/dirty during import, this is not supported
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Fusion.Editor.FusionEditorLog:WarnConfig (string) (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:9866)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10331)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs Line: 9866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.088 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2089ms)
+		BeginReloadAssembly (320ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (1617ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (497ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (742ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (465ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.57 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5966 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 115 unused Assets / (0.7 MB). Loaded Objects now: 6563.
+Memory consumption went from 229.8 MB to 229.1 MB.
+Total: 8.327300 ms (FindLiveObjects: 0.525800 ms CreateObjectMapping: 0.496000 ms MarkObjects: 6.627200 ms  DeleteObjects: 0.676700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 841ae3c624cefb6ec2fa1ff7f4c36f56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024852 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.92 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+Assets queued for import after Refresh completed:
+	Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+Asset Pipeline Refresh: Total: 0.005 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+<color=#73ACE5>[Fusion/Config]</color> Config created/dirty during import, this is not supported
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Fusion.Editor.FusionEditorLog:WarnConfig (string) (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:9866)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10331)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs Line: 9866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.893 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2895ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (2459ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (620ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (140ms)
+			SetupLoadedEditorAssemblies (1292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (259ms)
+				ProcessInitializeOnLoadAttributes (852ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 23.73 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5966 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (0.7 MB). Loaded Objects now: 6568.
+Memory consumption went from 229.7 MB to 229.0 MB.
+Total: 9.452900 ms (FindLiveObjects: 0.669700 ms CreateObjectMapping: 0.730500 ms MarkObjects: 6.128600 ms  DeleteObjects: 1.922200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 841ae3c624cefb6ec2fa1ff7f4c36f56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1890.063204 seconds.
+  path: Assets/Prefabs/UI/CharSelectionPanel.prefab
+  artifactKey: Guid(89649b1a98c44cf408e75a04885b2d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/CharSelectionPanel.prefab using Guid(89649b1a98c44cf408e75a04885b2d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dafac8a109fd65ae1538dc37651fe0a') in 0.080448 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034127 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.23 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+Assets queued for import after Refresh completed:
+	Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+Asset Pipeline Refresh: Total: 0.006 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+<color=#73ACE5>[Fusion/Config]</color> Config created/dirty during import, this is not supported
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Fusion.Editor.FusionEditorLog:WarnConfig (string) (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:9866)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10331)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs Line: 9866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.844 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5847ms)
+		BeginReloadAssembly (445ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (5033ms)
+			LoadAssemblies (384ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1460ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (340ms)
+			SetupLoadedEditorAssemblies (2440ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (497ms)
+				ProcessInitializeOnLoadAttributes (1614ms)
+				ProcessInitializeOnLoadMethodAttributes (273ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (55ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 42.91 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5966 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (0.7 MB). Loaded Objects now: 6573.
+Memory consumption went from 229.7 MB to 229.0 MB.
+Total: 33.393500 ms (FindLiveObjects: 1.678700 ms CreateObjectMapping: 1.765300 ms MarkObjects: 29.044100 ms  DeleteObjects: 0.903000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 841ae3c624cefb6ec2fa1ff7f4c36f56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033825 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 7.10 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+Assets queued for import after Refresh completed:
+	Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+Asset Pipeline Refresh: Total: 0.007 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+<color=#73ACE5>[Fusion/Config]</color> Config created/dirty during import, this is not supported
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Fusion.Editor.FusionEditorLog:WarnConfig (string) (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:9866)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10331)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs Line: 9866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.546 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6551ms)
+		BeginReloadAssembly (497ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (5597ms)
+			LoadAssemblies (491ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1479ms)
+			ReleaseScriptCaches (12ms)
+			RebuildScriptCaches (556ms)
+			SetupLoadedEditorAssemblies (2557ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (9ms)
+				BeforeProcessingInitializeOnLoad (526ms)
+				ProcessInitializeOnLoadAttributes (1678ms)
+				ProcessInitializeOnLoadMethodAttributes (271ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (62ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 43.81 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5966 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (0.7 MB). Loaded Objects now: 6578.
+Memory consumption went from 229.7 MB to 229.0 MB.
+Total: 18.476100 ms (FindLiveObjects: 0.915100 ms CreateObjectMapping: 2.217000 ms MarkObjects: 13.804200 ms  DeleteObjects: 1.537700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 841ae3c624cefb6ec2fa1ff7f4c36f56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030436 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.24 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+Assets queued for import after Refresh completed:
+	Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+Asset Pipeline Refresh: Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+<color=#73ACE5>[Fusion/Config]</color> Config created/dirty during import, this is not supported
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Fusion.Editor.FusionEditorLog:WarnConfig (string) (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:9866)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10331)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs Line: 9866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.445 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2446ms)
+		BeginReloadAssembly (284ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (1969ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (552ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (128ms)
+			SetupLoadedEditorAssemblies (942ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (239ms)
+				ProcessInitializeOnLoadAttributes (561ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 17.70 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5966 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (0.7 MB). Loaded Objects now: 6583.
+Memory consumption went from 229.7 MB to 229.0 MB.
+Total: 5.088100 ms (FindLiveObjects: 0.577500 ms CreateObjectMapping: 0.481600 ms MarkObjects: 3.636500 ms  DeleteObjects: 0.391500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 841ae3c624cefb6ec2fa1ff7f4c36f56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023704 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.27 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+Assets queued for import after Refresh completed:
+	Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+Asset Pipeline Refresh: Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+<color=#73ACE5>[Fusion/Config]</color> Config created/dirty during import, this is not supported
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Fusion.Editor.FusionEditorLog:WarnConfig (string) (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:9866)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10331)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs Line: 9866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.630 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2631ms)
+		BeginReloadAssembly (288ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (2098ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (644ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (972ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (248ms)
+				ProcessInitializeOnLoadAttributes (598ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 19.41 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5966 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (0.7 MB). Loaded Objects now: 6588.
+Memory consumption went from 229.7 MB to 229.0 MB.
+Total: 8.173600 ms (FindLiveObjects: 0.513300 ms CreateObjectMapping: 0.473500 ms MarkObjects: 6.767900 ms  DeleteObjects: 0.417400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 841ae3c624cefb6ec2fa1ff7f4c36f56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.058644 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 8.80 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+Assets queued for import after Refresh completed:
+	Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+Asset Pipeline Refresh: Total: 0.005 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+<color=#73ACE5>[Fusion/Config]</color> Config created/dirty during import, this is not supported
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Fusion.Editor.FusionEditorLog:WarnConfig (string) (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:9866)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10331)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs Line: 9866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.373 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7376ms)
+		BeginReloadAssembly (404ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (6484ms)
+			LoadAssemblies (403ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2255ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (351ms)
+			SetupLoadedEditorAssemblies (2997ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (9ms)
+				BeforeProcessingInitializeOnLoad (643ms)
+				ProcessInitializeOnLoadAttributes (1972ms)
+				ProcessInitializeOnLoadMethodAttributes (305ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (86ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 53.42 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5966 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (0.7 MB). Loaded Objects now: 6593.
+Memory consumption went from 229.7 MB to 229.0 MB.
+Total: 15.869100 ms (FindLiveObjects: 0.912900 ms CreateObjectMapping: 1.020400 ms MarkObjects: 11.156700 ms  DeleteObjects: 2.776500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 841ae3c624cefb6ec2fa1ff7f4c36f56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.036221 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\FreeLance\NewChess\AmericanCatur\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 6.69 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+Assets queued for import after Refresh completed:
+	Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+Asset Pipeline Refresh: Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10325)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs line 10325]
+
+<color=#73ACE5>[Fusion/Config]</color> Config created/dirty during import, this is not supported
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Fusion.Editor.FusionEditorLog:WarnConfig (string) (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:9866)
+Fusion.Editor.NetworkProjectConfigUtilities:EditTimeLoadGlobalConfigWrapper () (at Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs:10331)
+Fusion.NetworkProjectConfig/Static/<>c:<Reload>b__6_0 () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:512)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:ViaFactory (System.Threading.LazyThreadSafetyMode)
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:CreateValue ()
+System.Lazy`1<Fusion.NetworkProjectConfigAsset>:get_Value ()
+Fusion.NetworkProjectConfig:get_Global () (at Fusion/Fusion.Runtime/Runner/NetworkProjectConfig.cs:151)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:AddVoiceAsmdef () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:37)
+Photon.Voice.Fusion.Editor.VoiceEditorHelper:.cctor () (at Assets/Photon/PhotonVoice/Code/Fusion/Editor/VoiceEditorHelper.cs:15)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Photon/Fusion/Scripts/Editor/Fusion.Editor.cs Line: 9866)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.049 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7052ms)
+		BeginReloadAssembly (382ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (6387ms)
+			LoadAssemblies (332ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1867ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (474ms)
+			SetupLoadedEditorAssemblies (3138ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (94ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (648ms)
+				ProcessInitializeOnLoadAttributes (2109ms)
+				ProcessInitializeOnLoadMethodAttributes (244ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (51ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 40.06 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5966 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (0.7 MB). Loaded Objects now: 6598.
+Memory consumption went from 229.7 MB to 229.0 MB.
+Total: 17.736500 ms (FindLiveObjects: 0.847700 ms CreateObjectMapping: 1.055700 ms MarkObjects: 14.444000 ms  DeleteObjects: 1.387100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:FusionILWeaverTriggerImporter/ConfigHash: 841ae3c624cefb6ec2fa1ff7f4c36f56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

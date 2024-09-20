@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2904166338475686073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2904166338475686075}
+  - component: {fileID: 2904166338475686072}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2904166338475686075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2904166338475686073}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 992.6907, y: 573.2282, z: 4.054207}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2904166338475686072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2904166338475686073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b1b143da4d7e9c44b0a0f73c5448a7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SettingsPanel: {fileID: 0}
+  AlertPanel: {fileID: 0}
+  GOPanel: {fileID: 0}
+  DiceRollingPanel: {fileID: 0}
+  ArmySelectionPanel: {fileID: 0}
+  CharSelectionPanel: {fileID: 0}
+  ButtonPanel: {fileID: 0}
+  Dice6Button: {fileID: 0}
+  Dice8Button: {fileID: 0}
+  Dice6BlackImage: {fileID: 21300000, guid: 93f03fb8fc7fbc34da4afabedcd892da, type: 3}
+  Dice8BlackImage: {fileID: 21300000, guid: 94699c9c83d6e2646bac914f812d725e, type: 3}
+  Dice6WhiteImage: {fileID: 21300000, guid: 0e64186624b54274a83568704add47f8, type: 3}
+  Dice8WhiteImage: {fileID: 21300000, guid: ec0cc5ecb6c006d48ac0580eae7b7bbd, type: 3}
